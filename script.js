@@ -45,7 +45,7 @@ function moveButtonWithDelay() {
     button.onclick = null;
     
     // Add a visual cue that something is happening (optional)
-    button.innerText = 'รอแปป...';
+    button.innerText = 'ไม่';
     button.style.cursor = 'not-allowed';
 
     setTimeout(() => {
